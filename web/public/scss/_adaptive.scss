@@ -1,0 +1,60 @@
+@media screen and (max-width: 992px) {
+    header {
+        .navbar {
+            &-nav {padding-top: 10px;margin-top: 30px;}
+
+            .btn-group {
+                button {
+                    padding-left: 0;
+                }
+            }
+
+        }
+    }
+
+    .articles {padding-top: 100px;}
+    .full-article {padding-top: 100px;}
+}
+
+@media screen and (max-width: 768px) {
+    .article {
+        .article__img {
+            height: auto;
+        }
+
+    }
+
+    .full-article {
+        h4 {padding: 20px 0;}
+        padding-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .chat {
+        padding-bottom: 50px;
+
+        &-send__form {
+            .message-area {width: 80% !important;}
+        }
+
+        &-send {
+            padding: 5px 0;
+
+            .container {
+                padding: 0 5px;
+            }
+        }
+
+        &__media {
+            .images {margin-right: 5px;}
+        }
+    }
+
+    .users {
+        .user {
+            padding: 10px !important;
+        }
+    }
+}
